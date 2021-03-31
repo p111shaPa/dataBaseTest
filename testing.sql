@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 01 2021 г., 01:25
+-- Время создания: Апр 01 2021 г., 00:48
 -- Версия сервера: 8.0.19
 -- Версия PHP: 7.1.33
 
@@ -41,13 +41,9 @@ CREATE TABLE `accounts` (
 --
 
 INSERT INTO `accounts` (`id`, `name`, `bio`, `birth`, `email`, `pass`) VALUES
-(1, 'Test8', 'разная био', '2050-12-25', 'testoviy@test.ru', 'password1'),
+(1, 'Тестовый1', 'разная био', '2050-12-25', 'testoviy@test.ru', 'password1'),
 (2, 'Тест2', NULL, '2021-04-20', 'test2@test.ru', NULL),
-(3, 'test3', NULL, '2000-11-11', 'test3@test.ru', NULL),
-(4, 'Test4', 'проверка_update', '1991-11-12', 'test4@test.ru', NULL),
-(5, 'Test5', NULL, '1992-11-12', 'test5@test.ru', NULL),
-(6, 'Test9', NULL, '1993-11-12', 'test9@test.ru', 'kkkkkkkkkk'),
-(7, 'Test7', NULL, '1994-11-12', 'test7@test.ru', NULL);
+(3, 'test3', NULL, '2000-11-11', 'test3@test.ru', NULL);
 
 --
 -- Индексы сохранённых таблиц
@@ -67,7 +63,7 @@ ALTER TABLE `accounts`
 -- AUTO_INCREMENT для таблицы `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
